@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./src/icons/favicon.ico" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.js"></script>
+    <title>서울특별시</title>
+  </head>
+  <body>
+    <!-- 23.3.14 시작 -->
+    <div class="wrap">
+      <!-- header start -->
+      <header class="header">
+        <div class="header_t">
+          <a href="#a" class="header_logo">서울특별시 로고</a>
+          <nav class="main_menu">
+            <ul>
+              <li><a href="#a">서울소식</a></li>
+              <li><a href="#a">시민참여</a></li>
+              <li><a href="#a">분야별정보</a></li>
+              <li><a href="#a">서울소개</a></li>
+              <li><a href="#a">부서안내</a></li>
+              <li><a href="#a">정보공개</a></li>
+              <li><a href="#a">응답소</a></li>
+            </ul>
+          </nav>
+          <div class="main_info">
+            <ul>
+              <li><a href="#a">로그인</a></li>
+              <li><a href="#a">나의서울</a></li>
+              <li><a href="#a">전자우편</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_b">
+          <a href="#a" class="sub_logo">동행ㆍ매력 특별시 서울</a>
+          <div class="main_sch_area">
+            <input
+              class="search"
+              type="text"
+              placeholder="검색어를 입력해 주세요"
+            />
+            <img src="./src/icons/keyboard.png" class="keybord" />
+            <button class="sch_icon"></button>
+          </div>
+          <div class="weather_info">
+            <a href="https://www.weather.go.kr/w/index.do" target="_blank">
+              <img src="./src/weather/weathericon_d1.png" alt="날씨:구름조금" />
+              <div class="today_weather">
+                <p><strong>15.2℃</strong>구름많음</p>
+                <p>
+                  미세먼지 <span class="green">(보통)</span> 초미세먼지
+                  <span class="blue">(좋음)</span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="lang_setting">
+            <select name="" id="">
+              <option>ENGLISH</option>
+              <option>日本語</option>
+              <option>简体中文</option>
+              <option>繁体中文</option>
+              <option>WorldWide</option>
+            </select>
+            <input type="button" value="GO" />
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <!-- content start -->
+      <div class="content">
+        <section class="con1 flex">
+          <div class="inner_left">
+            <div class="slide_tab">
+              <button class="slide_news_tab on">
+                <i class="ico_news"></i> 주요뉴스
+              </button>
+              <button class="slide_citizens_tab">
+                <i class="ico_citizens"></i> 시민참여
+              </button>
+            </div>
+            <div class="slide_inner">
+              <div class="news_tab_inner on">
+                <div class="slide_wrap">
+                  <div class="slide_banner">
+                    <ul>
+                      <li class="slide_banner_1">
+                        <a href="#a"
+                          ><img
+                            src="./src/bf861507f879406c89a2b2d91aaefeb1.jpg"
+                            alt="슬라이드배너1"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>서울시, 식품위생업소 식품진흥기금 융자지원 안내</p>
+                        </div>
+                        <div class="slider_control_p">
+                          <p>
+                            봉사로 빛나는 포트폴리오! '서울동행'대학생 멘토 모집
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_2">
+                        <a href="#a"
+                          ><img
+                            src="./src/449edc4292834e28a14fb8ccc2e10db1.jpg"
+                            alt="슬라이드배너2"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            전기차 보조금 신청접수 시작! 승용차 최대 860만원
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_3">
+                        <a href="#a"
+                          ><img
+                            src="./src/3c8143598d584ad7be790d6894b37242.jpg"
+                            alt="슬라이드배너3"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>월 50만원씩 6개월 '서울 청년수당' 참여자 모집</p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_4">
+                        <a href="#a"
+                          ><img
+                            src="./src/8aa6ff12f78246fa8edce3d628536bb2.jpg"
+                            alt="슬라이드배너4"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            병원동행, 전월세계약…1인가구 불편·불안·불만 '3不'
+                            해소
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_5">
+                        <a href="#a"
+                          ><img
+                            src="./src/77efaf178a4f4ed39ba52f64f7021099.jpg"
+                            alt="슬라이드배너5"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            외국인 체납자 끝까지 쫓는다…14개 언어로 징수 안내
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_6">
+                        <a href="#a"
+                          ><img
+                            src="./src/98dcd33a2b014fe38660504f8c254214.jpg"
+                            alt="슬라이드배너6"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>2023년 서울시 우수관광상품 공모전 시행 공고</p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_7">
+                        <a href="#a"
+                          ><img
+                            src="./src/4743e95b28bd457bb0b3f7be4554b75d.jpg"
+                            alt="슬라이드배너7"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>중장년 소상공인 디지털전환 지원사업 공개모집</p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_8">
+                        <a href="#a"
+                          ><img
+                            src="./src/9e457f2dccb549e8a8f011ab340e4f7c.jpg"
+                            alt="슬라이드배너8"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            [모집공고] 미래 청년 일자리 사업 참여기업(사업장)
+                            모집
+                          </p>
+                        </div>
+                      </li>
+
+                      <li class="slide_banner_9">
+                        <a href="#a"
+                          ><img
+                            src="./src/5dff6b79a8eb4cf782914f6071e2ce07.jpg"
+                            alt="슬라이드배너9"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>2023 서울 인바운드 관광시장 활성화 지원 사업</p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_10">
+                        <a href="#a"
+                          ><img
+                            src="./src/24028f9f297b4b278bd080dc7772d34a.jpg"
+                            alt="슬라이드배너10"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            소상공인 사업재기 및 안전한 폐업지원 사업 공개 모집
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_11">
+                        <a href="#a"
+                          ><img
+                            src="./src/20c1edda51844368a4b6eecc5dbedcca.jpg"
+                            alt="슬라이드배너11"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            2023년 제11대 서울특별시 어린이청소년 참여위원회
+                            모집 신청대상 : 만9세~24세 서울시 어린이청소년
+                            모집일정:3.10(금)~3.19(일)까지
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_12">
+                        <a href="#a"
+                          ><img
+                            src="./src/4c37f3cb93a049e099ad4f16c158baa1.png"
+                            alt="슬라이드배너12"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            제8대 서울특별시 청소년의회 2차 모집 신청기간 :
+                            2023. 3.2.(목)~14(화)
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_13">
+                        <a href="#a"
+                          ><img
+                            src="./src/69a1780727694e45aa01a5c7ee056f08.jpg"
+                            alt="슬라이드배너13"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>
+                            2023년 서울특별시 시민상(어린이 및 청소년상)
+                            수상후보자 추천 공고
+                          </p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_14">
+                        <a href="#a"
+                          ><img
+                            src="./src/5ee40ba4766545c4a3d1b039eda31673.jpg"
+                            alt="슬라이드배너14"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>2024년 시민참여예산 사업 공모</p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_15">
+                        <a href="#a"
+                          ><img
+                            src="./src/1d24ffdeb6a04b7d9188af2164ae0702.jpg"
+                            alt="슬라이드배너15"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>서울브랜드 슬로건 최종 결선투표!!</p>
+                        </div>
+                      </li>
+                      <li class="slide_banner_16">
+                        <a href="#a"
+                          ><img
+                            src="./src/41dff10ac23b4a468868390db94784f7.jpg"
+                            alt="슬라이드배너16"
+                        /></a>
+
+                        <div class="slider_control_p">
+                          <p>서울시, 식품위생업소 식품진흥기금 융자지원 안내</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="slider_control">
+                    <p>
+                      1/16 <span class="slide_prev"></span
+                      ><span class="slide_play"></span
+                      ><span class="slide_next"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inner_right">
+            <div class="covid_current"></div>
+            <div class="news"></div>
+            <div class="mayor"></div>
+          </div>
+        </section>
+        <section class="con2"></section>
+        <section class="con3"></section>
+        <section class="con4"></section>
+        <section class="con5"></section>
+        <section class="con6"></section>
+        <section class="con7"></section>
+        <section class="con8"></section>
+      </div>
+      <!-- content end -->
+
+      <!-- footer start -->
+      <footer class="footer">
+        <div class="footer_t"></div>
+        <div class="footer_b"></div>
+      </footer>
+      <!-- footer end -->
+    </div>
+  </body>
+</html>
